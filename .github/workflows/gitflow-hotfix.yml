@@ -1,0 +1,25 @@
+name: Gitflow Hotfix
+
+on:
+  workflow_dispatch:
+    inputs:
+      action:
+        description: 'Gitflow action to perform'
+        required: true
+        type: choice
+        options:
+          - hotfix-start
+          - hotfix-finish
+      version:
+        description: 'Hotfix version (e.g., 1.0.1)'
+        required: true
+
+jobs:
+  call-gitflow-hotfix:
+    uses: dataliquid/github-actions/.github/workflows/gitflow-hotfix.yml@master
+    with:
+      action: ${{ inputs.action }}
+      version: ${{ inputs.version }}
+      java-version: '11'
+      java-distribution: 'temurin'
+    secrets: inherit
