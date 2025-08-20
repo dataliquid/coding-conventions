@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<profiles version="2">
+    <profile kind="JavaScriptFormatterProfile" name="DemoJSStyle" version="2">
+        <!-- 2 Spaces für JavaScript -->
+        <setting id="org.eclipse.wst.jsdt.core.formatter.tabulation.char" value="space"/>
+        <setting id="org.eclipse.wst.jsdt.core.formatter.tabulation.size" value="2"/>
+        <setting id="org.eclipse.wst.jsdt.core.formatter.indentation.size" value="2"/>
+        
+        <!-- Zeilen-Länge -->
+        <setting id="org.eclipse.wst.jsdt.core.formatter.lineSplit" value="100"/>
+        
+        <!-- Klammern -->
+        <setting id="org.eclipse.wst.jsdt.core.formatter.brace_position_for_function_declaration" value="end_of_line"/>
+        <setting id="org.eclipse.wst.jsdt.core.formatter.brace_position_for_block" value="end_of_line"/>
+        <setting id="org.eclipse.wst.jsdt.core.formatter.brace_position_for_switch" value="end_of_line"/>
+        <setting id="org.eclipse.wst.jsdt.core.formatter.brace_position_for_array_initializer" value="end_of_line"/>
+        
+        <!-- Semicolons -->
+        <setting id="org.eclipse.wst.jsdt.core.formatter.insert_semicolon" value="true"/>
+        
+        <!-- Spaces -->
+        <setting id="org.eclipse.wst.jsdt.core.formatter.insert_space_after_comma_in_array_initializer" value="insert"/>
+        <setting id="org.eclipse.wst.jsdt.core.formatter.insert_space_after_comma_in_function_declaration_parameters" value="insert"/>
+        <setting id="org.eclipse.wst.jsdt.core.formatter.insert_space_before_opening_paren_in_function_declaration" value="do not insert"/>
+        <setting id="org.eclipse.wst.jsdt.core.formatter.insert_space_after_opening_paren_in_function_declaration" value="do not insert"/>
+        <setting id="org.eclipse.wst.jsdt.core.formatter.insert_space_before_closing_paren_in_function_declaration" value="do not insert"/>
+    </profile>
+</profiles>
