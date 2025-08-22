@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <profiles version="2">
-    <profile kind="JavaScriptFormatterProfile" name="DemoJSStyle" version="2">
+    <profile kind="CodeFormatterProfile" name="dataliquid-default-style" version="2">
         <!-- 2 Spaces für JavaScript -->
         <setting id="org.eclipse.wst.jsdt.core.formatter.tabulation.char" value="space"/>
         <setting id="org.eclipse.wst.jsdt.core.formatter.tabulation.size" value="2"/>
