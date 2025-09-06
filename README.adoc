@@ -11,11 +11,11 @@ Repository for code style configurations and formatting rules used across projec
 coding-conventions/
 ├── codestyles/
 │   ├── default/            # Modern code style
-│   └── tradional/          # Traditional code style  
+│   └── traditional/        # Traditional code style  
 └── pom.xml
 ----
 
 == Code Styles
 
 * `default/` - Modern formatting style
-* `tradional/` - Traditional Eclipse formatting style
+* `traditional/` - Traditional Eclipse formatting style
