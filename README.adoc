@@ -1,6 +1,9 @@
 = Coding Conventions
 :toc:
 
+image:https://github.com/dataliquid/coding-conventions/actions/workflows/ci.yml/badge.svg[CI Build,link=https://github.com/dataliquid/coding-conventions/actions/workflows/ci.yml]
+image:https://img.shields.io/maven-central/v/com.dataliquid.guidelines/coding-conventions.svg[Maven Central,link=https://search.maven.org/artifact/com.dataliquid.guidelines/coding-conventions]
+
 == Overview
 
 Repository for code style configurations and formatting rules used across projects.
